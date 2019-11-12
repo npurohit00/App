@@ -4,34 +4,43 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#000000"
+    android:background="@drawable/ui"
     android:orientation="vertical"
     android:paddingTop="100dp"
     tools:context=".MainActivity">
 
     <EditText
-        android:textColorHint="#fff"
         android:layout_width="300dp"
         android:layout_height="60dp"
         android:layout_gravity="center"
-        android:hint="USERNAME"/>
+        android:hint="USERNAME"
+        android:textColorHint="#fff" />
+
     <EditText
-        android:textColorHint="#fff"
-        android:layout_marginTop="10dp"
         android:layout_width="300dp"
         android:layout_height="60dp"
         android:layout_gravity="center"
-        android:hint="PASSWORD"/>
-<!--    <LinearLayout-->
-<!--        android:gravity="center"-->
-<!--        android:layout_width="match_parent"-->
-<!--        android:layout_height="wrap_content" >-->
-<Button
-    android:layout_gravity="center"
-    android:layout_marginTop="50dp"
-    android:layout_width="wrap_content"
-    android:layout_height="60dp"
-    android:text="LOGIN" />
-<!--    </LinearLayout>-->
+        android:layout_marginTop="10dp"
+        android:hint="PASSWORD"
+        android:textColorHint="#fff" />
+    <!--    <LinearLayout-->
+    <!--        android:gravity="center"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content" >-->
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:text="LOGIN"
+        android:textColor="#DC143C" />
+    <!--    </LinearLayout>-->
+<!--    <ImageView-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:scaleX="1"-->
+<!--        android:scaleY="1"-->
+<!--        android:src="@drawable/ui" />-->
+
 
 </LinearLayout>
